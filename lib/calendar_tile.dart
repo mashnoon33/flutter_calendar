@@ -64,7 +64,6 @@ class CalendarTile extends StatelessWidget {
     }
     return new Container(
       decoration: new BoxDecoration(
-        color: Colors.white,
       ),
       child: renderDateOrDayOfWeek(context),
     );
